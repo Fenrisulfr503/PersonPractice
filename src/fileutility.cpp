@@ -34,7 +34,6 @@ bool asyncReadFile()
     OVERLAPPED oFile;
 	oFile.Offset = 0xFFFFFFFF;
 	oFile.OffsetHigh = 0xFFFFFFFF;
-
     if (!WriteFileEx(hFile, text, 512, &oFile, (LPOVERLAPPED_COMPLETION_ROUTINE)test))
     {
         fprintf(stdout, "Unable to write to file! Error %u\n", GetLastError());

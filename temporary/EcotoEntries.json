@@ -1,0 +1,784 @@
+[
+	{
+		"Name": "Egypt_Tree01",
+		"AssetName": "AcaciaTree",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_AcaciaTree01.Env_Au_EG_AcaciaTree01'":
+			{
+				"Age": 0,
+				"Radius": 12.5,
+				"HardRadius": 0.5,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_AcaciaTree02.Env_Au_EG_AcaciaTree02'":
+			{
+				"Age": 0,
+				"Radius": 13.5,
+				"HardRadius": 0.5,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_AcaciaTree03.Env_Au_EG_AcaciaTree03'":
+			{
+				"Age": 0,
+				"Radius": 9.5,
+				"HardRadius": 1,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_AcaciaTree04.Env_Au_EG_AcaciaTree04'":
+			{
+				"Age": 0,
+				"Radius": 15,
+				"HardRadius": 1.5,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_AcaciaTree05.Env_Au_EG_AcaciaTree05'":
+			{
+				"Age": 0,
+				"Radius": 10.5,
+				"HardRadius": 1,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_AcaciaTree06.Env_Au_EG_AcaciaTree06'":
+			{
+				"Age": 0,
+				"Radius": 9,
+				"HardRadius": 1,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_AcaciaTree_03B.Env_Au_EG_AcaciaTree_03B'":
+			{
+				"Age": 0,
+				"Radius": 0,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 4300,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Egypt_Palm01",
+		"AssetName": "palmTrss",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_palmTrss_01.Env_Au_EG_palmTrss_01'":
+			{
+				"Age": 0,
+				"Radius": 3.0999999046325684,
+				"HardRadius": 0.60000002384185791,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_palmTrss_02.Env_Au_EG_palmTrss_02'":
+			{
+				"Age": 0,
+				"Radius": 0,
+				"HardRadius": 0.60000002384185791,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 4200,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Egypt_Palm02",
+		"AssetName": "arecapalm",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_arecapalm_01.Env_Au_EG_arecapalm_01'":
+			{
+				"Age": 0,
+				"Radius": 3.2000000476837158,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"None":
+			{
+				"Age": 0,
+				"Radius": 3.0999999046325684,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 1,
+					"Y": 0
+				}
+			}
+		},
+		"Priority": 4100,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_Flower",
+		"AssetName": "flower",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_flower01_.Env_Roma_Neu_flower01_'":
+			{
+				"Age": 0,
+				"Radius": 0.80000001192092896,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_flower02_.Env_Roma_Neu_flower02_'":
+			{
+				"Age": 0,
+				"Radius": 0.60000002384185791,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_flower03_.Env_Roma_Neu_flower03_'":
+			{
+				"Age": 0,
+				"Radius": 0.80000001192092896,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_flower04_.Env_Roma_Neu_flower04_'":
+			{
+				"Age": 0,
+				"Radius": 0.80000001192092896,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 2000,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Egypt_Grass02",
+		"AssetName": "grass",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_grass_01.Env_Au_EG_grass_01'":
+			{
+				"Age": 0,
+				"Radius": 0.30000001192092896,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_grass_02.Env_Au_EG_grass_02'":
+			{
+				"Age": 0,
+				"Radius": 0.20000000298023224,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_grass_03.Env_Au_EG_grass_03'":
+			{
+				"Age": 0,
+				"Radius": 0.20000000298023224,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Au_EG_desertoasis/Env_Au_EG_grass_04.Env_Au_EG_grass_04'":
+			{
+				"Age": 0,
+				"Radius": 0.10000000149011612,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 10,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_Grass01",
+		"AssetName": "grassMass",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/grass_01b.grass_01b'":
+			{
+				"Age": 0,
+				"Radius": 0.80000001192092896,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 5,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_sweetwoodTree",
+		"AssetName": "RomaTree",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_sweetwood.Env_Roma_Neu_sweetwood'":
+			{
+				"Age": 5,
+				"Radius": 20,
+				"HardRadius": 1.7999999523162842,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_sweetwood2.Env_Roma_Neu_sweetwood2'":
+			{
+				"Age": 6,
+				"Radius": 16,
+				"HardRadius": 1.2000000476837158,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_coomA_.Env_Roma_Neu_coomA_'":
+			{
+				"Age": 6,
+				"Radius": 16,
+				"HardRadius": 1.2000000476837158,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_coomB_.Env_Roma_Neu_coomB_'":
+			{
+				"Age": 6,
+				"Radius": 16,
+				"HardRadius": 1.2000000476837158,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 4300,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_Shrub",
+		"AssetName": "RomaShrub",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_leavesA_.Env_Roma_Neu_leavesA_'":
+			{
+				"Age": 0.5,
+				"Radius": 1.5,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_leavesA1_.Env_Roma_Neu_leavesA1_'":
+			{
+				"Age": 0.40000000596046448,
+				"Radius": 1.5,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_spiraea1.Env_Roma_Neu_spiraea1'":
+			{
+				"Age": 0,
+				"Radius": 1,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_spiraea2.Env_Roma_Neu_spiraea2'":
+			{
+				"Age": 0,
+				"Radius": 1,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_spiraea3.Env_Roma_Neu_spiraea3'":
+			{
+				"Age": 0,
+				"Radius": 1,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_spiraea4.Env_Roma_Neu_spiraea4'":
+			{
+				"Age": 0,
+				"Radius": 1,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_leavesB_.Env_Roma_Neu_leavesB_'":
+			{
+				"Age": 0.5,
+				"Radius": 1.5,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_leavesC_.Env_Roma_Neu_leavesC_'":
+			{
+				"Age": 0.5,
+				"Radius": 1.5,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_Dyedwood_.Env_Roma_Neu_Dyedwood_'":
+			{
+				"Age": 0.5,
+				"Radius": 1.5,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 3000,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_PineTree",
+		"AssetName": "PineTree",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_Aleppo_Pine1_.Env_Roma_Neu_Aleppo_Pine1_'":
+			{
+				"Age": 15,
+				"Radius": 23,
+				"HardRadius": 1.2999999523162842,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_Aleppo_Pine2_.Env_Roma_Neu_Aleppo_Pine2_'":
+			{
+				"Age": 20,
+				"Radius": 24,
+				"HardRadius": 1.7999999523162842,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 4300,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_CedarTree",
+		"AssetName": "CedarTree",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_cedar01.Env_Roma_Neu_cedar01'":
+			{
+				"Age": 5,
+				"Radius": 7,
+				"HardRadius": 2,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_fir01.Env_Roma_Neu_fir01'":
+			{
+				"Age": 4,
+				"Radius": 8,
+				"HardRadius": 1,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_cedar02.Env_Roma_Neu_cedar02'":
+			{
+				"Age": 3,
+				"Radius": 5,
+				"HardRadius": 2,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 4000,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_JasmineTree",
+		"AssetName": "JasminTree",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_jasmine.Env_Roma_Neu_jasmine'":
+			{
+				"Age": 11,
+				"Radius": 15,
+				"HardRadius": 2.5,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_jasmine2.Env_Roma_Neu_jasmine2'":
+			{
+				"Age": 3,
+				"Radius": 6,
+				"HardRadius": 0.5,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_jasmine3.Env_Roma_Neu_jasmine3'":
+			{
+				"Age": 6,
+				"Radius": 8,
+				"HardRadius": 2,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 4500,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_Flower02",
+		"AssetName": "flower02",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_hyacinth1_.Env_Roma_Neu_hyacinth1_'":
+			{
+				"Age": 0,
+				"Radius": 0.5,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_hyacinth2_.Env_Roma_Neu_hyacinth2_'":
+			{
+				"Age": 0,
+				"Radius": 2,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_hyacinth3_.Env_Roma_Neu_hyacinth3_'":
+			{
+				"Age": 0,
+				"Radius": 2,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_Lilium01.Env_Roma_Neu_Lilium01'":
+			{
+				"Age": 0,
+				"Radius": 2,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_Lilium02.Env_Roma_Neu_Lilium02'":
+			{
+				"Age": 0,
+				"Radius": 2,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_bloodlily.Env_Roma_Neu_bloodlily'":
+			{
+				"Age": 0,
+				"Radius": 2,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 0,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_oakTree",
+		"AssetName": "OakTree",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_oak.Env_Roma_Neu_oak'":
+			{
+				"Age": 3,
+				"Radius": 25,
+				"HardRadius": 2.5,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_oak2.Env_Roma_Neu_oak2'":
+			{
+				"Age": 3,
+				"Radius": 25,
+				"HardRadius": 2.5,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 0,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_coomTree",
+		"AssetName": "CoomTree",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_coomA_.Env_Roma_Neu_coomA_'":
+			{
+				"Age": 6,
+				"Radius": 16,
+				"HardRadius": 1.2000000476837158,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			},
+			"StaticMesh'/Game/Civilization/Enviroment/Biome/kit_Roma/Env_Roma_Neu_coomB_.Env_Roma_Neu_coomB_'":
+			{
+				"Age": 6,
+				"Radius": 16,
+				"HardRadius": 1.2000000476837158,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 0,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	},
+	{
+		"Name": "Rome_Rock",
+		"AssetName": "RomeRock",
+		"Asset":
+		{
+			"StaticMesh'/Game/Civilization/Enviroment/Rock/Rome_rock/Env_Ro_EG_rock_17_.Env_Ro_EG_rock_17_'":
+			{
+				"Age": 0.5,
+				"Radius": 1.5,
+				"HardRadius": 0,
+				"ScaleRange":
+				{
+					"X": 0.80000001192092896,
+					"Y": 1.2000000476837158
+				}
+			}
+		},
+		"Priority": 0,
+		"DensityRange":
+		{
+			"X": 1,
+			"Y": 2
+		},
+		"Density": 1
+	}
+]
