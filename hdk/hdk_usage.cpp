@@ -2,9 +2,8 @@
 #include "hdkjson.h"
 
 int main(int argc, const char** argv) {
-
     // Json Usage
-    HDKJsonTest();
+    HDKJsonTestReadFormUnreal();
 
     return 0;
 }
