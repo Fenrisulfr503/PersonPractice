@@ -9,9 +9,9 @@ struct GridTable
     exint myWidth;
     exint myHeight;
 
-    GridTable(exint w, exint h ) : data(), myWidth(w), myHeight(h)
+    GridTable(exint w, exint h ) : data(w * h, w * h), myWidth(w), myHeight(h)
     {
-        data.setCapacity(w * h);
+
     }
 
     exint getByIndex(exint w, exint h )
@@ -38,7 +38,7 @@ void testArrayToGrid()
     {
         for (exint j = 0; j < myDataType.myWidth; j++)
         {
-            myDataType.setByIndex(j, i, j * i);
+            myDataType.setByIndex(j, i, myDataType.myWidth * i + j);
         }
         
     }
