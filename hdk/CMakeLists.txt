@@ -29,7 +29,8 @@ set( library_name HDK_Project )
 #   GU_PoissionDiscSampling.h
 
 set(Source  hdk_usage.cpp
-            hdkjson.cpp)
+            hdkjson.cpp
+            hdk_array.cpp)
 
 # )
 add_executable(${library_name} ${Source})

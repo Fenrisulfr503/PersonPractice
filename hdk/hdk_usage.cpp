@@ -1,9 +1,10 @@
 #include <iostream>
 #include "hdkjson.h"
+#include "hdk_array.h"
 
 int main(int argc, const char** argv) {
     // Json Usage
-    HDKJsonTestReadFormUnreal();
-
+    //HDKJsonTestReadFormUnreal();
+    testArrayToGrid();
     return 0;
 }

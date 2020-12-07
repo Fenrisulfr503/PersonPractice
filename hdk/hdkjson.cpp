@@ -7,7 +7,8 @@
 void HDKJsonTestReadFormUnreal()
 {
     std::cout << "Start Parse Json Documents.\n";
-    UT_StringHolder path("C:\\Users\\VFX-TIME\\Desktop\\Code\\PersonPractice\\temporary\\EcotoEntries.json");
+    // UT_StringHolder path("C:\\Users\\VFX-TIME\\Desktop\\Code\\PersonPractice\\temporary\\EcotoEntries.json");
+    UT_StringHolder path("D:\\Export\\EcotoEntries.json");
 
     UT_JSONValue parseFileValue;
     if (!parseFileValue.loadFromFile(path))
