@@ -1,0 +1,6 @@
+[submodule "opengl/glew"]
+	path = opengl/glew
+	url = https://github.com/nigels-com/glew
+[submodule "opengl/glfw"]
+	path = opengl/glfw
+	url = https://github.com/glfw/glfw
