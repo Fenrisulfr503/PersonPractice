@@ -29,7 +29,6 @@ struct GridTable
 
 };
 
-
 void testArrayToGrid()
 {
     GridTable myDataType (20, 5);
@@ -53,3 +52,4 @@ void testArrayToGrid()
     }
 
 }   
+

@@ -30,7 +30,8 @@ set( library_name HDK_Project )
 
 set(Source  hdk_usage.cpp
             hdkjson.cpp
-            hdk_array.cpp)
+            hdk_array.cpp
+            hdk_vmmath.cpp)
 
 # )
 add_executable(${library_name} ${Source})
