@@ -1,5 +1,6 @@
 
-/build/
+build
+settings.json
 /.vscode/
 /opengl/build/
 # Prerequisites
