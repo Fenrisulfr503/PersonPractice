@@ -92,3 +92,20 @@ void Shader::use()
 {
     glUseProgram(id);
 }
+
+void Shader::clearResource()
+{
+    glDeleteProgram(id);
+}
+
+void Shader::setUnifromFloat(const std::string& name,  float value)
+{
+    int vertexColorLocation = glGetUniformLocation(id, name.c_str());
+    glUniform4f(vertexColorLocation, 0.0f, value, 0.0f, 1.0f);
+}
+
+
+unsigned int Shader::getId()const
+{
+    return id;
+}
