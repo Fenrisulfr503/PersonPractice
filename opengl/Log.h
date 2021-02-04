@@ -5,7 +5,6 @@
 #pragma warning(pop)
 
 
-#include <memory>
 
 namespace detail
 {
@@ -19,6 +18,7 @@ namespace detail
         static std::shared_ptr<spdlog::logger>& GetClientLogger() { return s_ClientLogger; }
         Log(/* args */);
         ~Log();
+        
     private:
         static std::shared_ptr<spdlog::logger> s_CoreLogger;
         static std::shared_ptr<spdlog::logger> s_ClientLogger;
