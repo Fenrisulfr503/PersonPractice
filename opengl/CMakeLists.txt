@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-set(CMAKE_TOOLCHAIN_FILE "D:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake")
+set(CMAKE_TOOLCHAIN_FILE "E:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake")
 set(VCPKG_DEFAULT_TRIPLET x64-windows)
 
 project(Main)

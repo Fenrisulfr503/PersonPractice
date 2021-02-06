@@ -36,6 +36,13 @@ Window::Window()
         data.EventCallBack(event);
     });
 
+    glfwSetWindowSizeCallback(window, [](GLFWwindow* myWindow, int width, int height){
+        WindowData& data = *(WindowData*)glfwGetWindowUserPointer(myWindow);
+
+        EventWindowResize event(width, height);
+        data.Width = width; data.Height = height;
+        data.EventCallBack(event);
+    });
 
 }
 

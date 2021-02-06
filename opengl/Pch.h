@@ -6,5 +6,6 @@
 #include <functional>
 #include <stdint.h>
 #include <iostream>
+#include <sstream>
 
 #include "Log.h"

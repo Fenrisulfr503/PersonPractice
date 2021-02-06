@@ -9,11 +9,13 @@ void
 Application::Init()
 {
     window = std::make_shared<Window>();
+    auto func = [this](Event& e){ this->Application::OnEvent(e);};
+    window->SetWindowEventCallBack(func);
 }
 
-void OnEvent(Event& e)
+void Application::OnEvent(Event& e)
 {
-    APP_INFO("Winodw Close Event");
+    APP_INFO(e);
 }
 
 void 
