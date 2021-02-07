@@ -34,6 +34,7 @@ public:
 
     void Update();
     void SetWindowBackGroud();
+    void SetWindowsViewport();
     void SetWindowEventCallBack(const EventCallBackFunc& e);
 
     void OnEvent(Event&);

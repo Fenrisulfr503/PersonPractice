@@ -1,4 +1,4 @@
-#include <glad/glad.h>
+
 #include "Application.h"
 
 int main(int argc, char const *argv[])
@@ -8,8 +8,8 @@ int main(int argc, char const *argv[])
 
     APP_WARN("Application Start.");
     app.Init();
-    app.Run();
 
-    system("pause");
+    app.Run();
+    //system("pause");
     return 0;
 }

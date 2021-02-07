@@ -20,6 +20,26 @@ public:
     virtual std::string ToString() const { return GetName(); }
 };
 
+class EventDispatcher
+{
+public:
+    EventDispatcher( Event& e): myEvent(e){}
+
+    template<typename T, typename F>
+    bool Dispatch( F& func)
+    {
+        if(myEvent.GetEventType() == T::GetStaticType())
+        {
+            func (static_cast<T&>(myEvent));
+            return true;
+        }
+        return false;
+    }
+private:
+    Event& myEvent;
+};
+
+
 class EventWindowClose : public Event
 {
 public:
@@ -42,6 +62,7 @@ public:
         ss << "WindowResize Event : " << width << " , " << height;
         return ss.str();
     }
+    
     EVENT_CLASS_TYPE(WindowResize)
     
 private:
